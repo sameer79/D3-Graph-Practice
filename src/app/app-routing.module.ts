@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BarChartComponent } from './components/barchart.component';
 import { StackedBarChartComponent } from './components/stacked-barchart.component';
+import { SunBurstComponent } from './components/sun-brust.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'stacked',
     component: StackedBarChartComponent
+  },
+  {
+    path: 'sunburst',
+    component: SunBurstComponent
   }
 ];
 

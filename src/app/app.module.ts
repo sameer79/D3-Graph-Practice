@@ -5,11 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarChartComponent } from './components/barchart.component';
 import { StackedBarChartComponent } from './components/stacked-barchart.component';
+import { SunBurstComponent } from './components/sun-brust.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     BarChartComponent,
-    StackedBarChartComponent
+    StackedBarChartComponent,
+    SunBurstComponent
   ],
   imports: [
     BrowserModule,
